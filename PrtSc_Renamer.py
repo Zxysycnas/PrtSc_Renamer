@@ -32,7 +32,7 @@ for info in info_list:
     new_name = "屏幕截图 " + info["time"] + ".png"
     os.rename(old_name, new_name)
     print(old_name, "->", new_name)
-    # 屏幕截图(11).png -> 屏幕截图 2022-03-30 184953.png
+    # 屏幕截图(11).png -> 2022-03-30 18:49:53.png
 
 # os.system('pause')
 # pyinstaller -F  PrtSc_Renamer.py
